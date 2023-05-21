@@ -1,0 +1,157 @@
+.container{
+    padding: 70px 0;
+}
+
+
+.inner-container{
+    border: 1px solid #fff;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.inner-container.left-side{
+    text-align: center;
+    background-color: #454545;
+    color: white;
+    
+    box-shadow: -2px 6px 5px 0px rgba(8,8,8,0.75);
+    -webkit-box-shadow: 0px 2px 3px 1px rgba(8,8,8,0.75);
+    -moz-box-shadow: -2px 6px 5px 0px rgba(8,8,8,0.75);
+
+}
+
+.inner-container img.profile{
+    width: 70%;
+    border-radius: 50%;
+    display: block;
+   margin: auto;
+   border:  5px solid white;
+   margin-bottom: 20px; 
+}
+
+.inner-container.right-side form {
+    display: flex;
+    height: 100px;
+}
+
+.inner-container.right-side form textarea{
+    width: 85%;
+    border: 0;
+    padding: 10px;
+    resize: none;
+    outline-color: #454545;
+}
+
+.inner-container.right-side form button{
+    border: 0;
+    width: 15%;
+}
+
+/* .inner-container.inner-container.left-side #editAccount{
+    padding: 10px;
+    font-size: 14px;
+} */
+
+.inner-container.inner-container.left-side button{
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    outline: none;
+   color: #454545;
+   border-radius: 10px;
+   border: none;
+   transition: .5s;
+
+   margin: 0 5px;
+
+   box-shadow: 1px 5px 5px 1px #454545;
+   -webkit-box-shadow: 1px 5px 5px 1px #454545;
+   -moz-box-shadow: 1px 5px 5px 1px #454545;
+}
+
+.inner-container.inner-container.left-side button:hover{
+    background-color: #fff;
+    opacity: 10;
+
+ 
+}
+
+
+.custom-modal button#deleteProfile{
+    border: 3px solid black;
+    border-radius: 10px;
+    color: red;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#allPostsWrapper .single-post{
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+    color: #454545;
+}
+
+#allPostsWrapper .single-post .post-content{
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+#allPostsWrapper .single-post .post-actions{
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+}
+
+#allPostsWrapper .single-post .post-actions div button.like-btn{
+    background-image: url('img/like.png');
+    padding: 5px 15px 5px 40px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    border: 0;
+}
+
+
+#allPostsWrapper .single-post .post-actions div button.comment-btn{
+    background-image: url('img/comment.png');
+    padding: 5px 15px 5px 40px;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    border: 0;
+}
+
+
+#allPostsWrapper .single-post .post-actions div button.remove-btn{
+    border-color: red;
+    color: red;
+    padding: 5px 15px;
+}
+
+
+#allPostsWrapper .single-post .post-comments form{
+    height: 30px;
+    margin-top: 15px;
+}
+
+#allPostsWrapper .single-post .post-comments form input{
+    width: 85%;
+    padding: 0 10px;
+}
+
+#allPostsWrapper .single-post .post-comments form button{
+    width: 15%;
+    background-color: gray;
+}
+
+#allPostsWrapper .single-post .post-comments {
+    display: none;
+}
+
+#allPostsWrapper .single-post .post-comments .single-comment{
+    border: 1px dotted #454545;
+    padding: 10px;
+    margin-top: 10px;
+}
